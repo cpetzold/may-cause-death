@@ -1,0 +1,11 @@
+[package]
+name = "may-cause-death"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.10", default-features = false, features = [ "bevy_asset", "bevy_core_pipeline", "bevy_render", "bevy_sprite" ] }
+leafwing-input-manager = "0.9.1"
+rand = "0.8"
+seldom_pixel = { version = "0.2", features = ["interop", "line", "map", "particle", "state" ]}
+seldom_state = { version = "0.5", features = [ "leafwing_input" ] }
